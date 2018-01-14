@@ -41,7 +41,7 @@ rm -rf %{buildroot}
 # >> install pre
 mkdir -p %{buildroot}/usr/share/patchmanager/patches/jolla-settings-gost-button-status
 cp -r patch/* %{buildroot}/usr/share/patchmanager/patches/jolla-settings-gost-button-status
-mkdir -p %{buildroot}/usr/share/jolla-calendar/pages
+mkdir -p %{buildroot}/usr/share/lipstick-jolla-home-qt5/statusarea
 cp patch/GostStatusIndicator.qml %{buildroot}/usr/share/lipstick-jolla-home-qt5/statusarea
 # << install pre
 

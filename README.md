@@ -1,4 +1,3 @@
-# sailfishos-chinesecalendar-attached
-Add Chinese calendar to Jolla Calendar.
+# jolla-settings-gost-button-status
 
-Use LunarCalendar at github:https://github.com/zzyss86/LunarCalendar
+显示gost全局代理的图标
