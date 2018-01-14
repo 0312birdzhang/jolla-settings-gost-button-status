@@ -1,0 +1,8 @@
+{
+    "name": "Chinese Lunar Calendar patch",
+    "description": "Add Chinese calendar to Jolla offical Calendar",
+    "category": "calendar",
+    "infos": {
+        "maintainer": "birdzhang"
+    }
+}

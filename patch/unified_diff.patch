@@ -1,0 +1,16 @@
+diff --git a/usr/share/lipstick-jolla-home-qt5/statusarea/StatusArea.qml b/usr/share/lipstick-jolla-home-qt5/statusarea/StatusArea.qml
+index 7f57c5c..5e31f4b 100644
+--- a/usr/share/lipstick-jolla-home-qt5/statusarea/StatusArea.qml
++++ b/usr/share/lipstick-jolla-home-qt5/statusarea/StatusArea.qml
+@@ -142,6 +142,11 @@ Item {
+                 anchors.verticalCenter: parent.verticalCenter
+                 updatesEnabled: statusArea.recentlyOnDisplay
+             }
++            GostStatusIndicator {
++                id: gostStatusIndicator
++                anchors.verticalCenter: parent.verticalCenter
++                updatesEnabled: statusArea.recentlyOnDisplay
++            }
+             Loader {
+                 active: !Desktop.showDualSim
+                 visible: active
