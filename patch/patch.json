@@ -1,7 +1,7 @@
 {
-    "name": "Chinese Lunar Calendar patch",
-    "description": "Add Chinese calendar to Jolla offical Calendar",
-    "category": "calendar",
+    "name": "Gost button status patch",
+    "description": "Show gost button global proxy status",
+    "category": "homescreen",
     "infos": {
         "maintainer": "birdzhang"
     }

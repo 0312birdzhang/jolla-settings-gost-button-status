@@ -15,7 +15,7 @@ Release:    1
 Group:      Qt/Qt
 License:    TODO
 Source0:    %{name}-%{version}.tar.bz2
-Requires:   patchmanager
+# Requires:   patchmanager
 Requires:   jolla-settings-gost-button >= 0.1.4-3
 %description
 Status bar icon for gost
